@@ -45,7 +45,7 @@ function Navbar() {
               HITECH SOLUTIONS
             </Link>
           </h1>
-          <ul className="bar">
+          <ul className="bar mr-1">
             <li>
               <Link
                 onClick={openBar}

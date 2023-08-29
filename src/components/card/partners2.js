@@ -1,4 +1,6 @@
+import { Margin } from "@mui/icons-material";
 import Card from "./Card";
+
 function Partners() {
   return (
     <div className="container services">
@@ -7,7 +9,7 @@ function Partners() {
         <div className="col-md-12">
           <div className="row">
             <div className="col-md-4 mb-2">
-              <Card title="TTJVCO" img="ttjvco.jpeg" />
+              <Card className="center" title="TTJVCO" img="ttjvco.jpeg" />
             </div>
             <div className="col-md-4 mb-2">
               <Card img="hiid.png" title="Зүүн хүрээ Дашчойлон хийд" />
@@ -25,7 +27,7 @@ function Partners() {
         <div className="col-md-12">
           <div className="row">
             <div className="col-md-4 mb-2">
-              <Card title="TIKA" img="tika.png" />
+              <Card className="center" title="TIKA" img="tika.png" />
             </div>
             <div className="col-md-4 mb-2">
               <Card img="steppe.png" title="STEPPE GOLD" />
@@ -44,7 +46,7 @@ function Partners() {
         <div className="col-md-12">
           <div className="row">
             <div className="col-md-4 mb-2">
-              <Card title="Normount" img="normiount.jpeg" />
+              <Card className="center" title="Normount" img="normiount.jpeg" />
             </div>
             <div className="col-md-4 mb-2">
               <Card img="intermed.png" title="INTERMED HOSPITAL" />
